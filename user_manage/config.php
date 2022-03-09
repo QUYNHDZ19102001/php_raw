@@ -9,3 +9,9 @@ define('_WEB_HOST_ROOT', 'http://'.$_SERVER['HTTP_HOST'].'/PHP/modunl5/user_mana
 define('_WEB_HOST_TEMPLATE', _WEB_HOST_ROOT.'/template');
 define('_WEB_PATH_ROOT', __DIR__);
 define('_WEB_PATH_TEMPLATE', _WEB_PATH_ROOT.'/template');
+// hằng số kết nối data base
+const __HOST = 'localhost';
+const __DB = 'student';
+const __USER = 'root';
+const __PASSWORD = '';
+const __DRIVER = 'mysql';
