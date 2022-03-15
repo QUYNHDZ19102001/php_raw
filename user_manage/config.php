@@ -11,7 +11,7 @@ define('_WEB_PATH_ROOT', __DIR__);
 define('_WEB_PATH_TEMPLATE', _WEB_PATH_ROOT.'/template');
 // hằng số kết nối data base
 const __HOST = 'localhost';
-const __DB = 'student';
+const __DB = 'php_online';
 const __USER = 'root';
 const __PASSWORD = '';
 const __DRIVER = 'mysql';
